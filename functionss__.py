@@ -131,6 +131,136 @@ firstname , lastname, fullname """
 
 
 
+# def nums_operations(num1, num2, num3, num4):
+#     total = num1 + num2 + num3 + num4
+#     minnumber= min(num1, num2, num3, num4)
+#     maxnumber= max(num1, num2, num3, num4)
+#     return total,minnumber, maxnumber
+#
+#
+# res = nums_operations(2,4345,46,124)
+# print(res)
+
+
+
+# def minnum(a,b):
+#     if a < b:
+#         return a
+#     return b
+#
+#
+# def maxnum(a,b):
+#     if a > b:
+#         return a
+#
+#     return b
+#
+# def operations(a,b,c,d):
+#     # minumber = minnum(d, minnum(c, minnum(a,b)))
+#     minnn = minnum(minnum(a,b), minnum(c,d))
+#     a_bmin = minnum(a,b)
+#     c_dmin = minnum(c,d)
+#     minn_ =  minnum(a_bmin,c_dmin)
+
+
+"write a function that accepts list of numbers and return with newlist --> numbers * 2"
+
+""" [2,45,6], [4,90, 12] """
+# def myfunction(listofnumbers):
+#     newlist = []
+#     for i in listofnumbers:
+#         newval = i*2
+#         newlist.append(newval)
+#
+#     return newlist
+#
+#
+# res =  myfunction([45,45,3,5,46])
+# print(res)
+""" try to implement the previous logic with another implementation """
+
+
+# def amira_approach(listofnumbers):
+#     newlist= []
+#     k = 0
+#     for i in listofnumbers:
+#         print(i)
+#         newlist.append(i*2)
+#
+#     return newlist
+#
+# print(amira_approach([43,3,34,34,3]))
+
+
+
+
+
+
+# def abdallah_approach(listofnumbers):
+#     k = 0
+#     for i in listofnumbers:
+#         listofnumbers[k] *=2  # listofnumbers[k] = listofnumbers[k]*2
+#         k +=1
+#
+#     print(listofnumbers)
+#
+#
+# abdallah_approach([4,5,63,3,34])
+# print('---------------------------')
+#
+
+
+
+
+
+
+
+# def fady_approach(listofnumbers):
+#
+#     for index in range(len(listofnumbers)):
+#         print(index)
+#         listofnumbers[index] = listofnumbers[index]*2
+#
+#     print(listofnumbers)
+#
+#
+# fady_approach([4,5,63,3,34])
+# print('---------------------------')
+
+
+
+""" """
+
+#
+# def noha_approach(listofnumbers):
+#     no_of_elments = len(listofnumbers)-1
+#
+#     while no_of_elments >= 0:
+#         listofnumbers[no_of_elments]= listofnumbers[no_of_elments]*2
+#         no_of_elments -=1
+#
+#
+#     print(listofnumbers)
+
+
+# noha_approach([3,34,36,3,4,4])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
